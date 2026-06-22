@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio - Acceuil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Achille DELAUNEY</title>
+</head  
+<body>
+<header>
+    <nav>
+        <!-- Menu Burger -->
+        <div class="menu-toggle" id="menu-toggle">
+            ☰
+        </div>    
+
+        <ul class="menu" id="menu">
+            <li><a href="Moi.html">A propos de moi</a></li>
+            <li><a href="Competence.html">Compétences</a></li>
+            <li><a href="projet.html">Projets</a></li>
+            <li><a href="experience.html">Expérience</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="hero" class="section"data-aos="fade-up">
+    <h2>Achille DELAUNEY</h2>
+    <img src="images/moi.jpeg" alt="Photo de profil" class="photo-profile">
+    <p>
+        Je suis <strong>Achille DELAUNEY</strong>, un étudiant Technicien supérieur en deuxième année de BUT génie électrique et informatique industrielle spécialisé en ESE à l'IUT de Montpellier. Je suis passioné par l'automobile et l'aviation, j'aimerais poursuivre ma carrière dans l'une de ces voie.
+    </p>
+    <a href="projet.html" class="btn-primary">Voir mes projets</a>
+    <a href="contact.html" class="btn-primary">Me contacter</a>
+    <button id="btn-cv" class="btn-pdf">
+        telecharger mon CV
+    </button>
+</section>
+
+<!-- SECTION CV cachée -->
+<section id="cv-section" class="cv-hidden">
+    <iframe src="Pdf/CV_Achille_DELAUNEY.pdf"></iframe>
+</section>
+
+<footer>
+    <p>© 2026 - DELAUNEY Achille • Portfolio Tous droits réservés </p>
+</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<script src="script.js"></script>
+</body>
+</html>
