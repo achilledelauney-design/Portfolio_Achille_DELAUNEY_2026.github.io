@@ -240,8 +240,8 @@ footer {
 .menu {
      background-image:
         linear-gradient(
-            rgba(0, 0, 0, 0.5),
-            rgba(0, 0, 0, 0.5)
+            rgb(0, 0, 0),
+            rgb(0, 0, 0)
         ),
      url(/images/mco-aae-20241116.jpg);
     background-size: cover;
