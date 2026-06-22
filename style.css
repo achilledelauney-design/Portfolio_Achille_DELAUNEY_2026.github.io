@@ -247,7 +247,7 @@ footer {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 10px;  
+    min-height: 1000px;  
     padding: 60px 20px;
     color: rgb(0, 0, 0);
 }
