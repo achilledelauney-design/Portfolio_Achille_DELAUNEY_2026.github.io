@@ -159,7 +159,7 @@ button:hover {
     transition: 0.3s ease;
 }
 .btn-linkedin:hover {
-    background-color: #004182;
+    background-color: #820000;
     transform: translateY(-2px);
 }
 .btn-pdf {
@@ -240,8 +240,8 @@ footer {
 .menu {
      background-image:
         linear-gradient(
-            rgb(0, 0, 0),
-            rgb(0, 0, 0)
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)
         ),
      url(/images/mco-aae-20241116.jpg);
     background-size: cover;
