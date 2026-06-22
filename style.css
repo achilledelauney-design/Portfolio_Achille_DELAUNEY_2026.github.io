@@ -243,9 +243,9 @@ footer {
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)
         ),
-     url("/images/moi.jpeg");
+     url("/images/mco-aae-20241116.jpg");
     background-size: cover;
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     min-height: 10px;  
     padding: 60px 20px;
